@@ -1,0 +1,326 @@
+
+/* Navbar Stuff */
+button.btn.btn-outline-success {
+	border-radius: 20px;
+	padding: 0.4rem 1.4rem;
+	color: white;
+    border-color: white;
+}
+
+button.navbar-toggler,
+button.navbar-toggler:focus {
+	display: flex;
+    border: none;
+    font-size: 2rem;
+	box-shadow:none;
+}
+
+/* Snapping Scrolling Stuff */
+.scroll-container {
+	height: 100vh;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+}
+
+section {
+	height: 100vh;
+	scroll-snap-align: center;
+}
+
+::-webkit-scrollbar { 
+	display:none; /* Hides scrollbar */
+}
+
+/*Hero Stuff*/
+.hero {
+	/*text colors*/
+	color: white;
+
+	/* Sizing */
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 5em;
+
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+.hero .btn {
+	display: block;
+	width: 200px;
+
+	padding: 1em;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+
+	border: 3px solid white;
+	border-radius: 20px;
+}
+
+.hero .btn:hover {
+	box-shadow: inset 0 0 0 2em rgb(22, 32, 35);
+	color: white;
+	font-weight: 500;
+	transition: .5s;
+
+	border:dotted;
+}
+
+.stuff {
+	background-color: white;
+}
+
+.three,
+.stuff {
+	/*text colors*/
+	color: rgb(0, 0, 0);
+
+	/* Sizing */
+	width: 100vw;
+	height: 100vh;
+	
+	/* Flexbox Stuff*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+}
+
+
+/*Last Page Stuff*/
+.three .stuff {
+	background-color: black;
+	color: white;
+}
+
+.three hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgb(255, 255, 255);
+}
+
+section.p-5 {
+	background: none;
+}
+
+ul.override {
+    list-style-position: inside;
+	padding-left: 0px;
+	display: flex;
+}
+
+ul.override li {
+	padding-left: 20px;
+}
+
+
+
+ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*registration*/
+element.style {
+    /* background-color: #eee; */
+    border-radius: 0.5rem 0.5rem 0 0;
+
+}
+
+.row-override { /*brings card down center*/
+	margin-top: 125px;
+}
+
+.form-check.flex.justify-content-center.mb-5 { /*changes the pos of i agree all statemtns.*/
+    margin-left: 50px;
+}
+
+/* Login Page */
+.m-16.sm\:m-20.bg-white.shadow.sm\:rounded-lg.flex.justify-center.flex-1,
+.flex-1.bg-indigo-100.text-center.hidden.lg\:flex {
+    border-radius: 50px; /* Creates a rounded border*/
+}
+
+/* PRODUCTS */
+i.fa.fa-shopping-cart {
+    color: white;
+	margin-left: 15px;
+}
+
+/* Checkout Override */
+.container {
+	max-width: 960px;
+	background-color: white;
+  }
+  
+  .lh-condensed { line-height: 1.25; }
+
+.container.checkout {
+	border-radius: 30px;
+	margin-top: 15px;
+}
+
+/* Fix user-login */
+.container-full {
+	height: 80vh;
+}
+
+.list-stuff {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Montserrat;
+    background-color: #886c54;
+	width: 100%;
+	height: 50vh;
+}
+
+.outer {
+	position: relative;
+	background: #6f4e37 ;
+	height: 350px;
+	width: 550px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+    margin-left: 20px;
+    border-radius: 500px;
+}
+
+img {
+	position: absolute;
+	top: 0px;
+	right: -20px;
+	z-index: 0;
+	animation-delay: 0.5s;
+}
+
+.content {
+	animation-delay: 0.3s;
+	position: absolute;
+	left: 20px;
+	z-index: 3
+	
+}
+
+h1 {
+	color: #000000;
+}
+
+p {
+	width: 280px;
+	font-size: 13px;
+	line-height: 1.4;
+	color: rgb(0, 0, 0);
+	margin: 20px 0;
+	
+}
+
+.bg {
+	display: inline-block;
+	color: #fff;
+	background: cornflowerblue;
+	padding: 5px 10px;
+	border-radius: 50px;
+	font-size: .7em;
+}
+.button {
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10px;
+}
+
+.button a {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	font-size: 11px;
+	color: #111;
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 1px solid #aaa;
+	font-weight: bold;
+	
+	
+}
+
+.button a:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -10px;
+	width: 0%;
+	background: #111;
+	height: 100%;
+	z-index: -1;
+	transition: width 0.3s ease-in-out;
+	transform: skew(-25deg);
+	transform-origin: right;
+}
+
+.button a:hover:after {
+	width: 150%;
+	left: -10px;
+	transform-origin: left;
+	
+}
+
+.button a:hover {
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+
+.button a:nth-of-type(1) {
+	border-radius: 50px 0 0 50px;
+	border-right: none;
+}
+
+.button a:nth-of-type(2) {
+	border-radius: 0px 50px 50px 0;
+}
+
+.cart-icon {
+	padding-right: 8px;
+	
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+a {
+    color: white;
+}
