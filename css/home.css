@@ -201,6 +201,12 @@ h1, h2 {
 color: #886c54;
 }
 
-ul > li {
+li {
   display: inline-block;
+  margin-right: 1px;
+}
+
+li {
+  margin-left: 1px;
+  list-style-type:circle;
 }
