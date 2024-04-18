@@ -1,2 +1,2 @@
-# CoffeeandCats Capstone
+# eCommerce Website Capstone
  
