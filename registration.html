@@ -111,17 +111,28 @@
                               <div class="col-12">
 
                                 <label class="form-label" for="phoneNumber">How did you hear about us?</label><br>
-                                <select class="select form-control-lg">
-                                  <option value="1">Choose option</option>
-                                  <option value="2">Friends/Family</option>
-                                  <option value="3">Advertisements</option>
-                                  <option value="4">Social Media</option>
-                                </select>
-                                <label class="form-label select-label">Choose option</label>
-              
+                              
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="friendFamily"
+                                      value="option1" checked />
+                                    <label class="form-check-label" for="">Friend/Family</label>
+                                  </div>
+                
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="socialMedia"
+                                      value="option2" />
+                                    <label class="form-check-label" for="">Social Media</label>
+                                  </div>
+                
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="searchEngine"
+                                      value="option3" />
+                                    <label class="form-check-label" for="otherGender">Search Engine</label>
+                                  </div>
+                
                               </div>
                             </div>
-                            <h1>Already a member? <a href="login.html">Sign in here</a></h1>
+                            <h1>Already a member? <a href="login.html";> Sign in here</a></h1>
                             <div class="mt-4 pt-2">
                               <input data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg" type="submit" value="Submit" />
                             </div>
