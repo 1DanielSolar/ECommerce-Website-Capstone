@@ -5,10 +5,10 @@ that being cats and coffee.
 
 <p>
 <img src="images/screenshots/checkout.png">
-<img src="images/screenshots/home.png.png">
-<img src="images/screenshots/menu.png.png">
-<img src="images/screenshots/registration.png.png">
-<img src="images/screenshots/signin.png.png">
+<img src="images/screenshots/home.png">
+<img src="images/screenshots/menu.png">
+<img src="images/screenshots/registration.png">
+<img src="images/screenshots/signin.png">
 </p>
 
 <img src="images/screenshots/interestingcode.png">
