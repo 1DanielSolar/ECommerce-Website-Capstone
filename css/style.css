@@ -5,6 +5,10 @@ body {
     background-size: cover;
 }
 
+::-webkit-scrollbar { 
+	display:none; 
+}
+
 body {
     display: block;
     margin: 8px;
